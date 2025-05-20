@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Tasks - Beautiful Version</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bubbles">
+    <!-- Random bubbles -->
+    <div class="bubble" style="left: 10%; width: 25px; height: 25px;"></div>
+    <div class="bubble" style="left: 30%; animation-delay: 2s;"></div>
+    <div class="bubble" style="left: 50%; width: 30px; height: 30px; animation-delay: 4s;"></div>
+    <div class="bubble" style="left: 70%; animation-delay: 1s;"></div>
+    <div class="bubble" style="left: 90%; width: 15px; height: 15px; animation-delay: 3s;"></div>
+  </div>
+
+  <div class="container">
+    <!-- Color Change Button -->
+    <h2> Random Color Changing Button</h2>
+    <button id="colorButton" onclick="changeColor()">Click Me!</button>
+    <br><br><br>
+
+    <!-- Greeting Alert -->
+    <h2>Time-Based Greeting</h2>
+    <button onclick="showGreeting()">Show Greeting</button>
+    <br><br><br>
+
+    <!-- Calculator -->
+    <h2> Add Two Numbers</h2>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2">
+    <button onclick="addNumbers()">Add</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js">  </script>
+</body>
+</html>
